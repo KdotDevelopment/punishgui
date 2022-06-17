@@ -1,0 +1,11 @@
+name: PunishGUI
+version: 1.0
+main: "me.kdot.punishgui.Main"
+author: Ryan Kdot
+description: 
+api-version: 1.18
+commands:
+  punish:
+    permission: punishgui.use
+  warn:
+    permission: punishgui.warn

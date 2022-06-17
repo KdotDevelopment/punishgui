@@ -1,0 +1,93 @@
+#If you have offended in more than 3 categories, the next category you offend in will skip to offense level 2 (no warning)
+#If you have been Perm Banned and you do alt abuse, you will skip straight to Perm IP Ban
+
+#FORMAT: '<Mute/Ban/IPBan>-<Value>-<Hours/Days/Weeks/Months/Years>' Always use plural units
+#FORMAT: '<Perm Ban/Perm Mute/Perm IPBan>'
+#FORMAT: '<Warning>'
+
+spam:
+  string: 'Spam/Advertising'
+  1: 'Warning'
+  2: 'Mute-3-Hours'
+  3: 'Mute-1-Days'
+  4: 'Mute-1-Weeks'
+  5: 'Ban-1-Weeks'
+  6: 'Ban-2-Months'
+  7: 'Perm Ban'
+griefing:
+  string: 'Griefing'
+  1: 'Warning'
+  2: 'Ban-1-Days'
+  3: 'Ban-1-Weeks'
+  4: 'Ban-3-Months'
+  5: 'Ban-2-Years'
+  6: 'Perm Ban'
+disrespect:
+  string: 'Disrespect'
+  1: 'Warning'
+  2: 'Mute-3-Hours'
+  3: 'Mute-3-Days'
+  4: 'Ban-1-Weeks'
+  5: 'Ban-2-Months'
+  6: 'Ban-2-Years'
+  7: 'Perm Ban'
+alt-abuse:
+  string: 'Alt Abuse'
+  1: 'Warning'
+  2: 'IPBan-1-Weeks'
+  3: 'Perm IPBan'
+flying-speed:
+  string: 'Flying/Speed Hacks'
+  1: 'Warning'
+  2: 'Ban-3-Days'
+  3: 'Ban-2-Weeks'
+  4: 'Ban-2-Months'
+  5: 'Ban-2-Years'
+  6: 'Perm Ban'
+client-visuals:
+  string: 'Xray/Client-Side Visuals'
+  1: 'Warning'
+  2: 'Ban-1-Days'
+  3: 'Ban-1-Weeks'
+  4: 'Ban-1-Months'
+  5: 'Ban-3-Months'
+  6: 'Ban-2-Years'
+  7: 'Perm Ban'
+pvp:
+  string: 'PVP Hacks'
+  1: 'Warning'
+  2: 'Ban-3-Days'
+  3: 'Ban-2-Weeks'
+  4: 'Ban-1-Months'
+  5: 'Ban-2-Years'
+  6: 'Perm Ban'
+doxxing:
+  string: 'Doxxing'
+  1: 'Ban-2-Years'
+  2: 'Perm IPBan'
+lag:
+  string: 'Server Lag'
+  1: 'Warning'
+  2: 'Ban-2-Days'
+  3: 'Ban-2-Months'
+  4: 'Ban-2-Years'
+  5: 'Perm Ban'
+exploit:
+  string: 'Duping/Game Exploits'
+  1: 'Warning'
+  2: 'Ban-1-Weeks'
+  3: 'Ban-1-Months'
+  4: 'Ban-2-Years'
+  5: 'Perm Ban'
+endangerment:
+  string: 'Endangerment'
+  1: 'Perm IPBan'
+misc:
+  string: 'Misc. Hacks'
+  1: 'Warning'
+  2: 'Ban-1-Days'
+  3: 'Ban-1-Weeks'
+  4: 'Ban-1-Months'
+  5: 'Ban-3-Months'
+  6: 'Ban-2-Years'
+  7: 'Perm Ban'
